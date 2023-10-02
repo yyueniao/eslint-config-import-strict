@@ -13,6 +13,9 @@
     "import",
     "export"
   ],
+  "scripts": {
+    "format": "npx prettier . --write"
+  },
   "author": "Ng Say Peng <yyueniao0913@gmail.com> (https://www.linkedin.com/in/say-peng-ng-304b00225/)",
   "license": "MIT",
   "devDependencies": {
