@@ -27,3 +27,22 @@ jobs:
 
       - name: Check Prettier formatting
         run: npx prettier . --check
+
+  check-unused-rules:
+    name: Check Unused Rules
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check Unused rules
+        run: npm run find-rules
