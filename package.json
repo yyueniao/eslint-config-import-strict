@@ -14,5 +14,8 @@
     "export"
   ],
   "author": "Ng Say Peng <yyueniao0913@gmail.com> (https://www.linkedin.com/in/say-peng-ng-304b00225/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "8.50.0"
+  }
 }
