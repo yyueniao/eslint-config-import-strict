@@ -16,6 +16,7 @@
   "author": "Ng Say Peng <yyueniao0913@gmail.com> (https://www.linkedin.com/in/say-peng-ng-304b00225/)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "8.50.0"
+    "eslint": "8.50.0",
+    "prettier": "3.0.3"
   }
 }
