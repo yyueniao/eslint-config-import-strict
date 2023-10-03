@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-import-strict",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Opinionated and strict ESLint shareable config for eslint-plugin-import.",
   "main": "index.js",
   "keywords": [
