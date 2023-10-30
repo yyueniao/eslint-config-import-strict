@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "format": "npx prettier . --write",
-    "find-rules": "eslint-find-rules --unused all.js --no-core"
+    "find-rules": "eslint-find-rules --unused all.js --no-core && eslint-find-rules --unused strict.js --no-core"
   },
   "author": "Ng Say Peng <yyueniao0913@gmail.com> (https://www.linkedin.com/in/say-peng-ng-304b00225/)",
   "license": "MIT",
